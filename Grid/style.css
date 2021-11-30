@@ -1,0 +1,61 @@
+
+body {
+  font-family: "Arial", sans-serif;
+}
+:root {
+  --amaelo1: #febe01;
+  --amarelo2: rgb(233, 155, 0)1;
+  --preto: #111;
+  --cinza: hsla(0, 0%, 100%, 0.6);
+}
+
+
+.content{
+margin: 50px;
+}
+
+.title{
+  text-align: center;
+}
+.table-1{
+ background-color: #111;
+ border-radius: 4px;
+ padding: 10px;
+ margin-left: 10px;
+}
+
+.table-1 h2, p{
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+
+}
+
+.table-2{
+  background-color: #111;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+ }
+.table-2 h2, p{
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+span{
+  color: var(--amaelo1);
+}
+.botao{
+  height: 40px;
+  width:  100px;
+  display: inline-block;
+  background-color:  #febe01;
+  color: #332100;
+  border-radius: 4px;
+  
+  background: #febe01;
+  color: #332100;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
